@@ -1,0 +1,98 @@
+body {
+    background-color: floralwhite;
+	text-align: center;
+}
+h3{
+	color: grey;
+	font-weight: inherit;
+}
+h2{
+	color: indianred;
+	font-weight: inherit;
+	font-style: italic;
+	font-size: 3em;
+}
+h1{
+    color: deeppink;
+	text-align: center;
+    text-shadow: 2px 3px 3px floralwhite , 0 0 25px grey, 0 0 25px grey;
+	font-weight: bold;
+	font-size: 5em;
+
+}
+
+h4{
+	text-align: center;
+	font-size: 1em;
+}
+
+#container{
+	display: inline-block;
+    text-align: center;
+}
+.pie p{
+   	color: dimgray;
+    text-decoration-color: chocolate;
+    text-shadow: 5px 5px 10px darkgrey;
+    padding: 10px;
+}
+
+p{
+	text-align: center;
+	text-align: justify;
+}
+
+.galeria {
+	display: inline-block;
+	padding: 10px;
+	background-color: azure;
+	border-radius: 30px;
+    width: 350px;
+    margin: 10px 20px;
+    box-shadow: 0 4px 8px 0 lightsteelblue, 0 6px 20px 0 rgba(0, 0, 0, 19);
+    float: center;
+	transition: all 0.8s ease-in-out;
+}
+
+.galeria img{
+    width: 350px; 
+	height: 350px;
+}
+
+.galeria:hover{
+    border: 1px solid #0A003F;
+    transform: rotate(-3deg);
+}
+
+figcaption,.img-footer{
+    font-style: italic;
+    color: black;
+    font-size: 1em;
+    text-align: center;
+    margin: auto; 
+}
+
+figure{
+    margin: auto;
+    text-align: center;
+	}
+
+footer{
+	background: pink;
+}
+
+header{
+	background: #FEBABB;
+}
+
+ol{
+	
+	text-align: center;
+	display: list-item;
+	align-content: center;
+	font: 2em;
+}
+
+video{
+	text-align: center;
+}
